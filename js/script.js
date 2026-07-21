@@ -96,9 +96,9 @@ function renderPortfolio(videos) {
         <div class="portfolio-item hidden" data-id="${v.id}" style="transition-delay:${i * 60}ms">
             <div class="placeholder"${thumb ? ` style="background-image:url(${thumb})"` : ''}>
                 ${thumb ? '' : `<i class="fas ${v.icon || 'fa-play-circle'}"></i>`}
-                ${thumb ? '<div class="play-btn"><i class="fas fa-play"></i></div>' : `<span>${v.title}</span>`}
+                ${thumb ? '<div class="play-btn"><i class="fas fa-play"></i></div>' : ''}
             </div>
-            <div class="portfolio-overlay">
+            <div class="portfolio-info">
                 <h4>${v.title}</h4>
                 <p>${v.description}</p>
             </div>
