@@ -26,15 +26,7 @@
         "thumbnail": "",
         "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
     },
-    {
-        "id": 4,
-        "title": "Frag Movie",
-        "description": "CS:GO competitive frag compilation",
-        "category": "gameplay",
-        "icon": "fa-gamepad",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/kJQP7kiw5Fk"
-    },
+
     {
         "id": 17,
         "title": "Long form mlbb gaming video",
