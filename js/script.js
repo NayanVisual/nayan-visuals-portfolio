@@ -35,18 +35,13 @@ function observeHidden() {
 
 function handleSubmit(e) {
     e.preventDefault();
-    const btn = e.target.querySelector('button[type="submit"]');
-    const original = btn.innerHTML;
-    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-    btn.disabled = true;
-    setTimeout(() => {
-        btn.innerHTML = '<i class="fas fa-check"></i> Sent!';
-        setTimeout(() => {
-            btn.innerHTML = original;
-            btn.disabled = false;
-            e.target.reset();
-        }, 1500);
-    }, 1200);
+    const name = document.getElementById('formName').value.trim();
+    const email = document.getElementById('formEmail').value.trim();
+    const subject = document.getElementById('formSubject').value.trim();
+    const message = document.getElementById('formMessage').value.trim();
+    const phone = '919678057024';
+    const text = `*New Inquiry from ${name}*%0AEmail: ${email}%0ASubject: ${subject}%0AMessage: ${message}`;
+    window.open(`https://wa.me/${phone}?text=${text}`, '_blank');
 }
 
 async function loadPortfolio() {
