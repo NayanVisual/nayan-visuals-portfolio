@@ -15,7 +15,7 @@
         "category": "gameplay",
         "icon": "fa-gamepad",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "category": "gameplay",
         "icon": "fa-gamepad",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/8c5G3orRzs8"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "category": "gameplay",
         "icon": "fa-gamepad",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "category": "video",
         "icon": "fa-film",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/ScMzIvxBSi4"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "category": "video",
         "icon": "fa-film",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
         "id": 7,
@@ -69,7 +69,7 @@
         "category": "video",
         "icon": "fa-film",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "category": "color-grading",
         "icon": "fa-palette",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/8c5G3orRzs8"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "category": "color-grading",
         "icon": "fa-palette",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "category": "color-grading",
         "icon": "fa-palette",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/ScMzIvxBSi4"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "category": "color-grading",
         "icon": "fa-palette",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
         "id": 13,
@@ -123,7 +123,7 @@
         "category": "motion-graphics",
         "icon": "fa-magic",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
         "id": 15,
@@ -132,7 +132,7 @@
         "category": "motion-graphics",
         "icon": "fa-magic",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/8c5G3orRzs8"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
         "id": 16,
@@ -141,6 +141,6 @@
         "category": "motion-graphics",
         "icon": "fa-magic",
         "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ"
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     }
 ]
