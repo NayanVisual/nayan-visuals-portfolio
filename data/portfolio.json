@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Epic Gaming Montage",
-        "description": "Valorant highlights",
+        "description": "Valorant highlights & clutch moments",
         "category": "gameplay",
         "icon": "fa-gamepad",
         "thumbnail": "",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "title": "Ace Highlights",
-        "description": "Valorant clutch moments",
+        "description": "Valorant clutch & ace rounds",
         "category": "gameplay",
         "icon": "fa-gamepad",
         "thumbnail": "",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "title": "Frag Movie",
-        "description": "CS:GO competitive frags",
+        "description": "CS:GO competitive frag compilation",
         "category": "gameplay",
         "icon": "fa-gamepad",
         "thumbnail": "",
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "title": "Music Visualizer",
-        "description": "Cinematic music video",
+        "description": "Cinematic music video edit",
         "category": "video",
         "icon": "fa-film",
         "thumbnail": "",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "title": "Short Film Edit",
-        "description": "Narrative storytelling",
+        "description": "Narrative storytelling edit",
         "category": "video",
         "icon": "fa-film",
         "thumbnail": "",
@@ -56,7 +56,7 @@
     {
         "id": 7,
         "title": "Vlog Compilation",
-        "description": "Engaging vlog content",
+        "description": "Engaging vlog content edit",
         "category": "video",
         "icon": "fa-film",
         "thumbnail": "",
@@ -74,7 +74,7 @@
     {
         "id": 9,
         "title": "Color Grade Showcase",
-        "description": "Before/after comparison",
+        "description": "Before & after color correction",
         "category": "color-grading",
         "icon": "fa-palette",
         "thumbnail": "",
@@ -83,7 +83,7 @@
     {
         "id": 10,
         "title": "Cinematic LUT Pack",
-        "description": "Film look color grading",
+        "description": "Film look color grading demo",
         "category": "color-grading",
         "icon": "fa-palette",
         "thumbnail": "",
@@ -92,7 +92,7 @@
     {
         "id": 11,
         "title": "Mood Toning",
-        "description": "Atmospheric color correction",
+        "description": "Atmospheric color grading",
         "category": "color-grading",
         "icon": "fa-palette",
         "thumbnail": "",
@@ -101,7 +101,7 @@
     {
         "id": 12,
         "title": "Skin Retouch",
-        "description": "Portrait color grading",
+        "description": "Portrait color grading demo",
         "category": "color-grading",
         "icon": "fa-palette",
         "thumbnail": "",
@@ -110,7 +110,7 @@
     {
         "id": 13,
         "title": "Motion Reel",
-        "description": "Custom animations & VFX",
+        "description": "Custom animation & VFX demo",
         "category": "motion-graphics",
         "icon": "fa-magic",
         "thumbnail": "",
@@ -119,7 +119,7 @@
     {
         "id": 14,
         "title": "Lower Thirds Pack",
-        "description": "Custom title animations",
+        "description": "Custom title & text animation",
         "category": "motion-graphics",
         "icon": "fa-magic",
         "thumbnail": "",
@@ -128,7 +128,7 @@
     {
         "id": 15,
         "title": "Intro Sequence",
-        "description": "Channel intro animation",
+        "description": "Channel intro animation demo",
         "category": "motion-graphics",
         "icon": "fa-magic",
         "thumbnail": "",
@@ -137,7 +137,7 @@
     {
         "id": 16,
         "title": "Social Media Kit",
-        "description": "Instagram story animations",
+        "description": "Instagram story & reel animation",
         "category": "motion-graphics",
         "icon": "fa-magic",
         "thumbnail": "",
