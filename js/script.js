@@ -69,6 +69,12 @@ async function loadPortfolio() {
     }
 }
 
+function getYoutubeId(url) {
+    if (!url) return '';
+    const m = url.match(/(?:embed\/|v=|\/)([a-zA-Z0-9_-]{11})/);
+    return m ? m[1] : '';
+}
+
 function renderPortfolio(videos) {
     const grid = document.getElementById('portfolioGrid');
     if (!grid) return;
@@ -83,18 +89,21 @@ function renderPortfolio(videos) {
         return;
     }
 
-    grid.innerHTML = videos.map((v, i) => `
+    grid.innerHTML = videos.map((v, i) => {
+        const vid = getYoutubeId(v.videoUrl);
+        const thumb = vid ? `https://img.youtube.com/vi/${vid}/hqdefault.jpg` : '';
+        return `
         <div class="portfolio-item hidden" data-id="${v.id}" style="transition-delay:${i * 60}ms">
-            <div class="placeholder">
-                <i class="fas ${v.icon || 'fa-play-circle'}"></i>
-                <span>${v.title}</span>
+            <div class="placeholder"${thumb ? ` style="background-image:url(${thumb})"` : ''}>
+                ${thumb ? '' : `<i class="fas ${v.icon || 'fa-play-circle'}"></i>`}
+                ${thumb ? '<div class="play-btn"><i class="fas fa-play"></i></div>' : `<span>${v.title}</span>`}
             </div>
             <div class="portfolio-overlay">
                 <h4>${v.title}</h4>
                 <p>${v.description}</p>
             </div>
         </div>
-    `).join('');
+    `}).join('');
 
     observeHidden();
 
