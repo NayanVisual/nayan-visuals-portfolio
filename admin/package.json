@@ -4,10 +4,14 @@
   "private": true,
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build:win": "npx @electron/packager . NayanVisualsAdmin --platform=win32 --arch=x64 --out=dist --overwrite --icon= --asar=false"
   },
   "dependencies": {
     "electron": "^33.4.11",
     "simple-git": "^3.27.0"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.0.4"
   }
 }

@@ -3,9 +3,21 @@ const path = require('path');
 const fs = require('fs');
 const simpleGit = require('simple-git');
 
-const PORTFOLIO_PATH = path.join(__dirname, '..', 'data', 'portfolio.json');
-const REPO_DIR = path.join(__dirname, '..');
 const STATE_PATH = path.join(app.getPath('userData'), 'window-state.json');
+
+function findRepoRoot() {
+  let dir = __dirname;
+  for (let i = 0; i < 10; i++) {
+    if (fs.existsSync(path.join(dir, 'data', 'portfolio.json'))) return dir;
+    const parent = path.dirname(dir);
+    if (parent === dir) break;
+    dir = parent;
+  }
+  return path.join(__dirname, '..');
+}
+
+const REPO_DIR = findRepoRoot();
+const PORTFOLIO_PATH = path.join(REPO_DIR, 'data', 'portfolio.json');
 
 let mainWindow;
 
