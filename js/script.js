@@ -71,7 +71,7 @@ async function loadPortfolio() {
 
 function getYoutubeId(url) {
     if (!url) return '';
-    const m = url.match(/(?:embed\/|v=|\/)([a-zA-Z0-9_-]{11})/);
+    const m = url.match(/(?:embed\/|shorts\/|v=|\/)([a-zA-Z0-9_-]{11})/);
     return m ? m[1] : '';
 }
 
@@ -89,7 +89,8 @@ function renderPortfolio(videos) {
         return;
     }
 
-    grid.innerHTML = videos.map((v, i) => {
+    const limited = currentFilter === 'all' ? videos.slice(0, 4) : videos;
+    grid.innerHTML = limited.map((v, i) => {
         const vid = getYoutubeId(v.videoUrl);
         const thumb = vid ? `https://img.youtube.com/vi/${vid}/hqdefault.jpg` : '';
         return `

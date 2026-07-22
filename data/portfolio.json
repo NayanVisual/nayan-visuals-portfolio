@@ -64,15 +64,6 @@
         "videoUrl": "https://www.youtube.com/embed/kXYiU_JCYtU"
     },
     {
-        "id": 8,
-        "title": "Event Recap",
-        "description": "Live event highlight reel",
-        "category": "video",
-        "icon": "fa-film",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/OPf0YbXqDm0"
-    },
-    {
         "id": 9,
         "title": "Color Grade Showcase",
         "description": "Before & after color correction",
@@ -152,5 +143,14 @@
         "icon": "fa-film",
         "thumbnail": "",
         "videoUrl": "https://www.youtube.com/embed/2A_licSOe24"
+    },
+    {
+        "id": 19,
+        "title": "Social media edit",
+        "description": "Clean and minimal social media editing with smooth cuts, subtle transitions, and natural color grading.",
+        "category": "motion-graphics",
+        "icon": "fa-magic",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/el6cyk42m9o"
     }
 ]
