@@ -1,33 +1,5 @@
 [
     {
-        "id": 1,
-        "title": "Epic Gaming Montage",
-        "description": "Valorant highlights & clutch moments",
-        "category": "gameplay",
-        "icon": "fa-gamepad",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        "id": 2,
-        "title": "Battle Royale Clips",
-        "description": "Fortnite victory royale edits",
-        "category": "gameplay",
-        "icon": "fa-gamepad",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw"
-    },
-    {
-        "id": 3,
-        "title": "Ace Highlights",
-        "description": "Valorant clutch & ace rounds",
-        "category": "gameplay",
-        "icon": "fa-gamepad",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
-    },
-
-    {
         "id": 17,
         "title": "Long form mlbb gaming video",
         "description": "A minimum long-form MLBB edit with good AI voiceover, script, animations, transitions, overlays, sound design, background music, subtitles, motion graphics, color grading, and engaging visual effects.",
@@ -37,15 +9,6 @@
         "videoUrl": "https://www.youtube.com/embed/oTOrKqwQZtI"
     },
     {
-        "id": 5,
-        "title": "Music Visualizer",
-        "description": "Cinematic music video edit",
-        "category": "video",
-        "icon": "fa-film",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/RgKAFK5djSk"
-    },
-    {
         "id": 6,
         "title": "Short Film Edit",
         "description": "Narrative storytelling edit",
@@ -53,15 +16,6 @@
         "icon": "fa-film",
         "thumbnail": "",
         "videoUrl": "https://www.youtube.com/embed/fJ9rUzIMcZQ"
-    },
-    {
-        "id": 7,
-        "title": "Vlog Compilation",
-        "description": "Engaging vlog content edit",
-        "category": "video",
-        "icon": "fa-film",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/kXYiU_JCYtU"
     },
     {
         "id": 9,
@@ -99,7 +53,7 @@
         "thumbnail": "",
         "videoUrl": "https://www.youtube.com/embed/KQ6zr6kCPj8"
     },
-{
+    {
         "id": 14,
         "title": "Lower Thirds Pack",
         "description": "Custom title & text animation",
