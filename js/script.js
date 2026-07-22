@@ -101,6 +101,7 @@ function renderPortfolio(videos) {
             <div class="portfolio-info">
                 <h4>${v.title}</h4>
                 <p>${v.description}</p>
+                <span class="portfolio-cat">${v.category === 'gameplay' ? 'Gaming Edit' : v.category === 'video' ? 'Cinematic Video' : v.category === 'color-grading' ? 'Color Grading' : 'Social Media'}</span>
             </div>
         </div>
     `}).join('');
