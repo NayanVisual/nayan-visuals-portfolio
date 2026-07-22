@@ -89,8 +89,7 @@ function renderPortfolio(videos) {
         return;
     }
 
-    const limited = currentFilter === 'all' ? videos.slice(0, 4) : videos;
-    grid.innerHTML = limited.map((v, i) => {
+    grid.innerHTML = videos.map((v, i) => {
         const vid = getYoutubeId(v.videoUrl);
         const thumb = vid ? `https://img.youtube.com/vi/${vid}/hqdefault.jpg` : '';
         return `
