@@ -31,7 +31,16 @@
         "title": "Social media edit 2",
         "description": "Edit",
         "category": "motion-graphics",
-        "videoUrl": "https://www.youtube.com/embed/LRLV8zVtEjw",
+        "videoUrl": "https://youtube.com/shorts/LRLV8zVtEjw?si=MO-ypIsyogVDVlUe",
+        "icon": "fa-magic",
+        "thumbnail": ""
+    },
+    {
+        "id": 21,
+        "title": "Real estate video edit",
+        "description": "Edit",
+        "category": "motion-graphics",
+        "videoUrl": "https://youtube.com/shorts/3rhsErd8dq0?si=niDM4KJ95sXApslZ",
         "icon": "fa-magic",
         "thumbnail": ""
     }
