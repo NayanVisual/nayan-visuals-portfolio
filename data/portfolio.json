@@ -1,14 +1,5 @@
 [
     {
-        "id": 4,
-        "title": "Frag Movie",
-        "description": "CS:GO competitive frags",
-        "category": "gameplay",
-        "icon": "fa-gamepad",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ"
-    },
-    {
         "id": 6,
         "title": "Short Film Edit",
         "description": "Narrative storytelling",
