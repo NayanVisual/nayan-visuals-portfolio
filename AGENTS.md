@@ -34,10 +34,9 @@ Electron app for CRUD on `data/portfolio.json` + auto-push to GitHub.
 
 ## Deployment
 
-- **Two remotes** — both must be pushed manually after every change:
-  - `origin` → Amannotop/nayan-visuals-portfolio
-  - `nayanvisual` → NayanVisual/nayan-visuals-portfolio
-- **Admin app auto-pushes only to `nayanvisual`**. To sync `origin`, push manually.
+- **Push only to `nayanvisual`** — do not push to `origin` (Amannotop).
+- `nayanvisual` → NayanVisual/nayan-visuals-portfolio (GitHub Pages source)
+- Admin app auto-pushes to `nayanvisual` on every save/delete/reorder.
 - GitHub Pages serves `main` branch root. `.nojekyll` disables Jekyll processing.
 - If NayanVisual Pages errors (new account), delete & recreate Pages via GitHub API.
 
