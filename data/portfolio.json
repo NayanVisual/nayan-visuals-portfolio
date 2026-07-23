@@ -142,5 +142,14 @@
         "videoUrl": "https://www.youtube.com/embed/dBiXT1AC2Z8",
         "icon": "fa-film",
         "thumbnail": ""
+    },
+    {
+        "id": 18,
+        "title": "Brand Edit",
+        "description": "",
+        "category": "video",
+        "videoUrl": "https://www.youtube.com/embed/dTJWo1w4lv0",
+        "icon": "fa-film",
+        "thumbnail": ""
     }
 ]
