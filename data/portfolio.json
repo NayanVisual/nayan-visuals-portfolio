@@ -124,5 +124,14 @@
         "videoUrl": "https://www.youtube.com/embed/yxShexFUbGQ",
         "icon": "fa-magic",
         "thumbnail": ""
+    },
+    {
+        "id": 16,
+        "title": "Personal travel edit",
+        "description": "",
+        "category": "motion-graphics",
+        "videoUrl": "https://www.youtube.com/embed/xzf9aOtbbKg",
+        "icon": "fa-magic",
+        "thumbnail": ""
     }
 ]
