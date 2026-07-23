@@ -1,14 +1,5 @@
 [
     {
-        "id": 2,
-        "title": "Battle Royale Clips",
-        "description": "Fortnite victory royale edits",
-        "category": "gameplay",
-        "icon": "fa-gamepad",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw"
-    },
-    {
         "id": 4,
         "title": "Frag Movie",
         "description": "CS:GO competitive frags",
