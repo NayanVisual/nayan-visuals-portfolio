@@ -1,14 +1,5 @@
 [
     {
-        "id": 12,
-        "title": "Skin Retouch",
-        "description": "Portrait color grading",
-        "category": "color-grading",
-        "icon": "fa-palette",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
-    },
-    {
         "id": 14,
         "title": "Lower Thirds Pack",
         "description": "Custom title animations",
