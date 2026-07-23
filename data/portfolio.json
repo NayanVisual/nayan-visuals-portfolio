@@ -1,14 +1,5 @@
 [
     {
-        "id": 1,
-        "title": "Epic Gaming Montage",
-        "description": "Valorant highlights",
-        "category": "gameplay",
-        "icon": "fa-gamepad",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
         "id": 5,
         "title": "Music Visualizer",
         "description": "Cinematic music video",
