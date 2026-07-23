@@ -66,7 +66,7 @@ test('all entries have required fields', () => {
     assert(typeof e.title === 'string' && e.title.length > 0, `entry ${e.id}: title required`);
     assert(typeof e.category === 'string' && e.category.length > 0, `entry ${e.id}: category required`);
     assert(typeof e.videoUrl === 'string' && e.videoUrl.length > 0, `entry ${e.id}: videoUrl required`);
-    assert(['gameplay', 'video', 'color-grading', 'motion-graphics'].includes(e.category),
+    assert(['gameplay', 'video', 'real-estate', 'motion-graphics'].includes(e.category),
       `entry ${e.id}: invalid category "${e.category}"`);
   }
 });
@@ -184,7 +184,7 @@ section('4. Category Labels');
 const catLabels = {
   gameplay: 'Gaming Edit',
   video: 'Cinematic Video',
-  'color-grading': 'Color Grading',
+  'real-estate': 'Real Estate Videos',
   'motion-graphics': 'Social Media',
 };
 
@@ -192,12 +192,12 @@ test('all 4 categories have display labels', () => {
   assertEqual(Object.keys(catLabels).length, 4);
   assertEqual(catLabels.gameplay, 'Gaming Edit');
   assertEqual(catLabels.video, 'Cinematic Video');
-  assertEqual(catLabels['color-grading'], 'Color Grading');
+  assertEqual(catLabels['real-estate'], 'Real Estate Videos');
   assertEqual(catLabels['motion-graphics'], 'Social Media');
 });
 
 test('each category has a valid icon mapping', () => {
-  const icons = { gameplay: 'fa-gamepad', video: 'fa-film', 'color-grading': 'fa-palette', 'motion-graphics': 'fa-magic' };
+  const icons = { gameplay: 'fa-gamepad', video: 'fa-film', 'real-estate': 'fa-building', 'motion-graphics': 'fa-magic' };
   assertEqual(Object.keys(icons).length, 4);
   for (const [k, v] of Object.entries(icons)) {
     assert(typeof v === 'string' && v.startsWith('fa-'), `icon for ${k} invalid`);

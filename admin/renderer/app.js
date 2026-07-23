@@ -44,14 +44,14 @@ function toEmbedUrl(url) {
 const catLabels = {
   gameplay: 'Gaming Edit',
   video: 'Cinematic Video',
-  'color-grading': 'Color Grading',
+  'real-estate': 'Real Estate Videos',
   'motion-graphics': 'Social Media',
 };
 
 const catIcons = {
   gameplay: 'gamepad',
   video: 'film',
-  'color-grading': 'palette',
+  'real-estate': 'building',
   'motion-graphics': 'magic',
 };
 

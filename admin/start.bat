@@ -1,3 +1,7 @@
 @echo off
 cd /d "%~dp0"
-start "" /B "node_modules\.bin\electron.cmd" .
+if exist "node_modules\.bin\electron.cmd" (
+    start "" /B "node_modules\.bin\electron.cmd" .
+) else (
+    start "" "%~dp0..\..\NayanVisualsAdmin.exe"
+)
