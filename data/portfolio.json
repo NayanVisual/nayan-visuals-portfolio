@@ -27,15 +27,6 @@
         "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ"
     },
     {
-        "id": 5,
-        "title": "Music Visualizer",
-        "description": "Cinematic music video",
-        "category": "video",
-        "icon": "fa-film",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/ScMzIvxBSi4"
-    },
-    {
         "id": 6,
         "title": "Short Film Edit",
         "description": "Narrative storytelling",
