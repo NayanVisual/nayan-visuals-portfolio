@@ -1,1 +1,11 @@
-[]
+[
+    {
+        "id": 1,
+        "title": "rgrgrg",
+        "description": "rgrgrgr",
+        "category": "real-estate",
+        "videoUrl": "https://www.youtube.com/embed/3rhsErd8dq0",
+        "icon": "fa-building",
+        "thumbnail": ""
+    }
+]
