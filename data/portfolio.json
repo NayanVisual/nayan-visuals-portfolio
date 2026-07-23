@@ -52,5 +52,14 @@
         "videoUrl": "https://www.youtube.com/embed/oTOrKqwQZtI",
         "icon": "fa-gamepad",
         "thumbnail": ""
+    },
+    {
+        "id": 8,
+        "title": "Short Gaming Video",
+        "description": "",
+        "category": "gameplay",
+        "videoUrl": "https://www.youtube.com/embed/01k8fRzeYqM",
+        "icon": "fa-gamepad",
+        "thumbnail": ""
     }
 ]
