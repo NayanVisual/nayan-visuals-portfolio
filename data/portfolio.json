@@ -9,15 +9,6 @@
         "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
-        "id": 2,
-        "title": "Battle Royale Clips",
-        "description": "Fortnite victory royale edits",
-        "category": "gameplay",
-        "icon": "fa-gamepad",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw"
-    },
-    {
         "id": 3,
         "title": "Ace Highlights",
         "description": "Valorant clutch moments",
