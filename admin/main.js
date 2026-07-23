@@ -126,10 +126,8 @@ ipcMain.handle('save-portfolio', async (_, entries) => {
 ipcMain.handle('git-push', async (_, message) => {
   try {
     const git = simpleGit(REPO_DIR);
-    const status = await git.status();
-    if (status.files.length === 0) return { success: false, error: 'Nothing to commit' };
     await git.add('data/portfolio.json');
-    await git.commit(message);
+    try { await git.commit(message); } catch {}
     await git.push('nayanvisual', 'main');
     return { success: true, remotes: ['nayanvisual'] };
   } catch (err) {

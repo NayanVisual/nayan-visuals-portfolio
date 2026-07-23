@@ -72,9 +72,6 @@ async function autoPush(action) {
       pushStatus.textContent = 'Website updated';
       pushStatus.className = 'push-status success';
       showToast('Website updated', 'success');
-    } else if (res.error === 'Nothing to commit') {
-      pushStatus.textContent = 'No changes to sync';
-      pushStatus.className = 'push-status';
     } else {
       pushStatus.textContent = 'GitHub error: ' + res.error;
       pushStatus.className = 'push-status error';
