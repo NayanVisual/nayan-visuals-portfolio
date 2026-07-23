@@ -9,15 +9,6 @@
         "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw"
     },
     {
-        "id": 9,
-        "title": "Luxury Home Tour",
-        "description": "Premium villa walkthrough",
-        "category": "real-estate",
-        "icon": "fa-building",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/8c5G3orRzs8"
-    },
-    {
         "id": 10,
         "title": "Modern Apartment Showcase",
         "description": "Urban living space tour",
