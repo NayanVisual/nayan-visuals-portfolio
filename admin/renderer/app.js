@@ -62,6 +62,21 @@ function showToast(msg, type = 'info') {
   toast._timer = setTimeout(() => { toast.className = 'toast'; }, 2500);
 }
 
+async function autoPush(action) {
+  const msg = commitMsg.value.trim() || `update portfolio (${action})`;
+  pushStatus.textContent = 'Syncing...';
+  pushStatus.className = 'push-status';
+  const res = await window.api.gitPush(msg);
+  if (res.success) {
+    pushStatus.textContent = 'Synced to ' + res.remotes.join(', ');
+    pushStatus.className = 'push-status success';
+  } else {
+    pushStatus.textContent = res.error;
+    pushStatus.className = 'push-status error';
+    setTimeout(() => { pushStatus.textContent = ''; pushStatus.className = 'push-status'; }, 4000);
+  }
+}
+
 // --- Render ---
 function filteredEntries() {
   const q = searchQuery.toLowerCase().trim();
@@ -132,6 +147,7 @@ function renderSidebar() {
       if (res.success) {
         renderSidebar();
         showToast('Reordered', 'success');
+        autoPush('reorder');
       }
       dragSrcId = null;
     });
@@ -226,6 +242,7 @@ form.addEventListener('submit', async (e) => {
   if (res.success) {
     showToast('Saved', 'success');
     resetForm();
+    autoPush('save');
   } else {
     showToast('Save failed: ' + res.error, 'error');
   }
@@ -248,30 +265,13 @@ deleteBtn.addEventListener('click', async () => {
   if (res.success) {
     showToast('Deleted', 'success');
     resetForm();
+    autoPush('delete');
   } else {
     showToast('Delete failed: ' + res.error, 'error');
   }
 });
 
-pushBtn.addEventListener('click', async () => {
-  const msg = commitMsg.value.trim() || 'update portfolio';
-  pushBtn.disabled = true;
-  pushBtn.innerHTML = '<span style="opacity:0.6">Pushing...</span>';
-  pushStatus.textContent = 'Committing and pushing...';
-  pushStatus.className = 'push-status';
-  const res = await window.api.gitPush(msg);
-  if (res.success) {
-    pushStatus.textContent = 'Pushed to ' + res.remotes.join(', ');
-    pushStatus.className = 'push-status success';
-    showToast('Pushed to GitHub', 'success');
-  } else {
-    pushStatus.textContent = res.error;
-    pushStatus.className = 'push-status error';
-    showToast('Push failed: ' + res.error, 'error');
-  }
-  pushBtn.disabled = false;
-  pushBtn.innerHTML = '<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1v10M4 7l4 4 4-4M2 13h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Push to GitHub';
-});
+pushBtn.addEventListener('click', () => autoPush('manual'));
 
 // --- Menu shortcuts from main process ---
 window.api.onMenuNew(() => addBtn.click());
