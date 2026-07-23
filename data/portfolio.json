@@ -1,14 +1,5 @@
 [
     {
-        "id": 14,
-        "title": "Lower Thirds Pack",
-        "description": "Custom title animations",
-        "category": "motion-graphics",
-        "icon": "fa-magic",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw"
-    },
-    {
         "id": 15,
         "title": "Intro Sequence",
         "description": "Channel intro animation",
