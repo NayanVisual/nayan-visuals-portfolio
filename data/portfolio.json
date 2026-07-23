@@ -88,5 +88,14 @@
         "videoUrl": "https://www.youtube.com/embed/27XX5r4DwUU",
         "icon": "fa-magic",
         "thumbnail": ""
+    },
+    {
+        "id": 12,
+        "title": "Social Media edit 6",
+        "description": "",
+        "category": "motion-graphics",
+        "videoUrl": "https://www.youtube.com/embed/G-AGmHXI4C0",
+        "icon": "fa-magic",
+        "thumbnail": ""
     }
 ]
