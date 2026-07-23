@@ -45,15 +45,6 @@
         "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
     },
     {
-        "id": 7,
-        "title": "Vlog Compilation",
-        "description": "Engaging vlog content",
-        "category": "video",
-        "icon": "fa-film",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
         "id": 8,
         "title": "Event Recap",
         "description": "Live event highlight reel",
