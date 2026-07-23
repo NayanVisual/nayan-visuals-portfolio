@@ -79,5 +79,14 @@
         "videoUrl": "https://www.youtube.com/embed/7LIiOASGu1c",
         "icon": "fa-magic",
         "thumbnail": ""
+    },
+    {
+        "id": 11,
+        "title": "Social Media edit 5",
+        "description": "",
+        "category": "motion-graphics",
+        "videoUrl": "https://www.youtube.com/embed/27XX5r4DwUU",
+        "icon": "fa-magic",
+        "thumbnail": ""
     }
 ]
