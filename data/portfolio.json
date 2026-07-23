@@ -97,5 +97,14 @@
         "videoUrl": "https://www.youtube.com/embed/G-AGmHXI4C0",
         "icon": "fa-magic",
         "thumbnail": ""
+    },
+    {
+        "id": 13,
+        "title": "Social Media edit 7",
+        "description": "",
+        "category": "motion-graphics",
+        "videoUrl": "https://www.youtube.com/embed/pho94eHPrqQ",
+        "icon": "fa-magic",
+        "thumbnail": ""
     }
 ]
