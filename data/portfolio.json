@@ -1,1 +1,137 @@
-[]
+[
+    {
+        "id": 2,
+        "title": "Battle Royale Clips",
+        "description": "Fortnite victory royale edits",
+        "category": "gameplay",
+        "icon": "fa-gamepad",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw"
+    },
+    {
+        "id": 3,
+        "title": "Ace Highlights",
+        "description": "Valorant clutch moments",
+        "category": "gameplay",
+        "icon": "fa-gamepad",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/8c5G3orRzs8"
+    },
+    {
+        "id": 4,
+        "title": "Frag Movie",
+        "description": "CS:GO competitive frags",
+        "category": "gameplay",
+        "icon": "fa-gamepad",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ"
+    },
+    {
+        "id": 5,
+        "title": "Music Visualizer",
+        "description": "Cinematic music video",
+        "category": "video",
+        "icon": "fa-film",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/ScMzIvxBSi4"
+    },
+    {
+        "id": 6,
+        "title": "Short Film Edit",
+        "description": "Narrative storytelling",
+        "category": "video",
+        "icon": "fa-film",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
+    },
+    {
+        "id": 7,
+        "title": "Vlog Compilation",
+        "description": "Engaging vlog content",
+        "category": "video",
+        "icon": "fa-film",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        "id": 8,
+        "title": "Event Recap",
+        "description": "Live event highlight reel",
+        "category": "video",
+        "icon": "fa-film",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw"
+    },
+    {
+        "id": 9,
+        "title": "Luxury Home Tour",
+        "description": "Premium villa walkthrough",
+        "category": "real-estate",
+        "icon": "fa-building",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/8c5G3orRzs8"
+    },
+    {
+        "id": 10,
+        "title": "Modern Apartment Showcase",
+        "description": "Urban living space tour",
+        "category": "real-estate",
+        "icon": "fa-building",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ"
+    },
+    {
+        "id": 11,
+        "title": "Commercial Property",
+        "description": "Office space highlight reel",
+        "category": "real-estate",
+        "icon": "fa-building",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/ScMzIvxBSi4"
+    },
+    {
+        "id": 12,
+        "title": "New Development",
+        "description": "Under-construction project preview",
+        "category": "real-estate",
+        "icon": "fa-building",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
+    },
+    {
+        "id": 13,
+        "title": "Motion Reel",
+        "description": "Custom animations & VFX",
+        "category": "motion-graphics",
+        "icon": "fa-magic",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        "id": 14,
+        "title": "Lower Thirds Pack",
+        "description": "Custom title animations",
+        "category": "motion-graphics",
+        "icon": "fa-magic",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw"
+    },
+    {
+        "id": 15,
+        "title": "Intro Sequence",
+        "description": "Channel intro animation",
+        "category": "motion-graphics",
+        "icon": "fa-magic",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/8c5G3orRzs8"
+    },
+    {
+        "id": 16,
+        "title": "Social Media Kit",
+        "description": "Instagram story animations",
+        "category": "motion-graphics",
+        "icon": "fa-magic",
+        "thumbnail": "",
+        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ"
+    }
+]
