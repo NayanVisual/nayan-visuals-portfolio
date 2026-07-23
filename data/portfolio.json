@@ -1,14 +1,5 @@
 [
     {
-        "id": 8,
-        "title": "Event Recap",
-        "description": "Live event highlight reel",
-        "category": "video",
-        "icon": "fa-film",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw"
-    },
-    {
         "id": 10,
         "title": "Modern Apartment Showcase",
         "description": "Urban living space tour",
