@@ -1,14 +1,5 @@
 [
     {
-        "id": 12,
-        "title": "New Development",
-        "description": "Under-construction project preview",
-        "category": "real-estate",
-        "icon": "fa-building",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
-    },
-    {
         "id": 14,
         "title": "Lower Thirds Pack",
         "description": "Custom title animations",
