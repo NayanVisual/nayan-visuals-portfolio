@@ -1,14 +1,5 @@
 [
     {
-        "id": 1,
-        "title": "",
-        "description": "rgrgrgr",
-        "category": "real-estate",
-        "videoUrl": "https://www.youtube.com/embed/3rhsErd8dq0",
-        "icon": "fa-building",
-        "thumbnail": ""
-    },
-    {
         "id": 2,
         "title": "Real Estate video",
         "description": "A clean and engaging real estate video edit featuring seamless transitions, balanced color grading, and a professional look.",
