@@ -1,14 +1,5 @@
 [
     {
-        "id": 11,
-        "title": "Mood Toning",
-        "description": "Atmospheric color correction",
-        "category": "color-grading",
-        "icon": "fa-palette",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/ScMzIvxBSi4"
-    },
-    {
         "id": 12,
         "title": "Skin Retouch",
         "description": "Portrait color grading",
