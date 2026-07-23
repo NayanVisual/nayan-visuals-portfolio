@@ -133,5 +133,14 @@
         "videoUrl": "https://www.youtube.com/embed/xzf9aOtbbKg",
         "icon": "fa-magic",
         "thumbnail": ""
+    },
+    {
+        "id": 17,
+        "title": "Brand edit",
+        "description": "",
+        "category": "video",
+        "videoUrl": "https://www.youtube.com/embed/dBiXT1AC2Z8",
+        "icon": "fa-film",
+        "thumbnail": ""
     }
 ]
