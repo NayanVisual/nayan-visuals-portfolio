@@ -1,14 +1,5 @@
 [
     {
-        "id": 6,
-        "title": "Short Film Edit",
-        "description": "Narrative storytelling",
-        "category": "video",
-        "icon": "fa-film",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
-    },
-    {
         "id": 8,
         "title": "Event Recap",
         "description": "Live event highlight reel",
