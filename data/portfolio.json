@@ -1,14 +1,5 @@
 [
     {
-        "id": 10,
-        "title": "Modern Apartment Showcase",
-        "description": "Urban living space tour",
-        "category": "real-estate",
-        "icon": "fa-building",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ"
-    },
-    {
         "id": 11,
         "title": "Commercial Property",
         "description": "Office space highlight reel",
