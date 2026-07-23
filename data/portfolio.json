@@ -25,5 +25,14 @@
         "videoUrl": "https://www.youtube.com/embed/el6cyk42m9o",
         "icon": "fa-magic",
         "thumbnail": ""
+    },
+    {
+        "id": 5,
+        "title": "Social Media Edit 2",
+        "description": "",
+        "category": "gameplay",
+        "videoUrl": "https://www.youtube.com/embed/LRLV8zVtEjw",
+        "icon": "fa-gamepad",
+        "thumbnail": ""
     }
 ]
