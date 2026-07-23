@@ -9,15 +9,6 @@
         "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
-        "id": 4,
-        "title": "Frag Movie",
-        "description": "CS:GO competitive frags",
-        "category": "gameplay",
-        "icon": "fa-gamepad",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ"
-    },
-    {
         "id": 5,
         "title": "Music Visualizer",
         "description": "Cinematic music video",
