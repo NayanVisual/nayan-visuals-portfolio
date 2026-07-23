@@ -9,15 +9,6 @@
         "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
     },
     {
-        "id": 13,
-        "title": "Motion Reel",
-        "description": "Custom animations & VFX",
-        "category": "motion-graphics",
-        "icon": "fa-magic",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
         "id": 14,
         "title": "Lower Thirds Pack",
         "description": "Custom title animations",
