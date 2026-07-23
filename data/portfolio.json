@@ -1,14 +1,5 @@
 [
     {
-        "id": 15,
-        "title": "Intro Sequence",
-        "description": "Channel intro animation",
-        "category": "motion-graphics",
-        "icon": "fa-magic",
-        "thumbnail": "",
-        "videoUrl": "https://www.youtube.com/embed/8c5G3orRzs8"
-    },
-    {
         "id": 16,
         "title": "Social Media Kit",
         "description": "Instagram story animations",
