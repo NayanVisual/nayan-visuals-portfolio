@@ -11,7 +11,7 @@
     {
         "id": 3,
         "title": "Wedding Video edit",
-        "description": "Discription - Wedding videos edited in a cinematic style with clean cuts, smooth transitions, and natural color grading.",
+        "description": "Wedding videos edited in a cinematic style with clean cuts, smooth transitions, and natural color grading.",
         "category": "video",
         "videoUrl": "https://www.youtube.com/embed/2A_licSOe24",
         "icon": "fa-film",
